@@ -1,13 +1,13 @@
-# **PIapp — Business Specification v5.0**
+# **PIapp — Business Specification v5.1**
 
 |  |  |
 | ----- | ----- |
 | Product | PIapp — Performance Intelligence app |
 | Owner | Ian Gotts, for Jez Cartwright / Performance Intelligence |
-| Version | 5.0, 13 Nov 2026 |
+| Version | 5.1, 17 Nov 2026 |
 | Status | DRAFT for review. §1–5 carry the content validated by Jez and Ian in v3.0, with fuller detail and clearer wording. §6–15 are rewritten to follow §1–5. Appendix A is the gap register |
-| Companion specs | PIapp-UI-Spec-v2.1.md and PIapp-Technical-Spec-v2.1.md. Both pre-date this version and need re-baselining to it (see §15) |
-| Supersedes | v4.0 (12 Nov), v3.0 (28 Oct) and v2.1 (22 Oct) |
+| Companion specs | PIapp Tech Spec v3.0.md and PIapp UI Spec v3.0.md, both re-baselined to this specification (16 Nov 2026). Their v2.1 predecessors are superseded |
+| Supersedes | v5.0 (13 Nov), v4.0 (12 Nov), v3.0 (28 Oct) and v2.1 (22 Oct) |
 
 **How to read this version**
 
@@ -810,6 +810,7 @@ Q-05, Q-19, Q-21 and Q-22 were answered in review (D-15, D-17, D-18, D-23). One 
 
 | Version | Date | Change |
 | ----- | ----- | ----- |
+| 5.1 | 17 Nov 2026 | Housekeeping only. Header and §15 now name Tech Spec v3.0 and UI Spec v3.0 as the companion specs, replacing the v2.1 references. No requirement, rule or decision changed; IDs touched: none |
 | 5.0 | 13 Nov 2026 | Review decisions applied to v4.0. SME appears in videos only and is not stored; credit check and credit requests (BR-69); no minimum purchase; defaults per client and per coach; coach availability switch; terminology at app and client level; questions never lapse; sessions hosted outside PIapp; PIapp owns all content; indefinite data retention; targets deferred; insight schema (§5.7); flagged questions are not sent and notify the Client Admin (PI Admin in the MVP); BR-05, BR-30..34 and BR-79 retired; confirmed proposals unmarked. Unconfirmed proposals remain marked **\[P\]** |
 | 4.0 | 12 Nov 2026 | Expanded and clarified §1–5 (decisions unchanged). Fixed numbering: Functionality is §5, Capabilities is §6. Rewrote §6–15 to match §1–5. Added Appendix A (gap register) and B (traceability) |
 | 3.0 | 28 Oct 2026 | Business-led rewrite of §1–5: marketplace framing; three services; credit economics; coach qualification; four phases. §6–15 not updated |
@@ -828,7 +829,7 @@ Q-05, Q-19, Q-21 and Q-22 were answered in review (D-15, D-17, D-18, D-23). One 
 * **§12–13.** Success measures populated; targets deferred until after the MVP; agent measures removed. Risks re-based on the coach marketplace.  
 * **§14.** Decisions list added; open questions restated.
 
-**Companion specs to re-baseline.** The UI and Technical specs (v2.1) still assume the agent, web parity, Q\&A in Phase 3 and one-on-one in Phase 4\. They need updating to §5, §6 and §7 here.
+**Companion specs.** The UI and Technical specs were re-baselined to this specification on 16 Nov 2026 and are now v3.0. Each carries a reconciliation log of every v2.1 conflict. The v2.1 versions are superseded.
 
 ---
 
