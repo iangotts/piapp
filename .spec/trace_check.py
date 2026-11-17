@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""spec-harness traceability check.
+"""spec traceability check.
 
 Deterministic, stdlib-only. Fails (exit 1) when specs drift apart.
 
@@ -14,7 +14,7 @@ Checks
   4. TABLES    markdown tables whose rows have inconsistent column counts.
 
 Usage
-  python3 trace_check.py [--config .spec-harness/config.json] [--json] [--root DIR]
+  python3 trace_check.py [--config .spec/config.json] [--json] [--root DIR]
 
 Config (JSON)
   {
@@ -80,14 +80,14 @@ def check_tables(name, text):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--config", default=".spec-harness/config.json")
+    ap.add_argument("--config", default=".spec/config.json")
     ap.add_argument("--root", default=".")
     ap.add_argument("--json", action="store_true")
     a = ap.parse_args()
 
     cfg_path = os.path.join(a.root, a.config)
     if not os.path.exists(cfg_path):
-        print("config not found: %s (run /spec-harness:spec-init)" % cfg_path, file=sys.stderr)
+        print("config not found: %s (run /spec:spec-init)" % cfg_path, file=sys.stderr)
         return 2
     cfg = json.load(open(cfg_path, encoding="utf-8"))
     ignore = set(cfg.get("ignore", []))

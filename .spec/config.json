@@ -32,7 +32,7 @@
   ],
   "ignore": [],
   "decision_log": "docs/decisions.md",
-  "constitution": ".spec-harness/constitution.md",
+  "constitution": ".spec/constitution.md",
   "verify": {
     "commands": [],
     "manual_only": false
