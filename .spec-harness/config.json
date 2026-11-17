@@ -1,0 +1,61 @@
+{
+  "project": "PIapp",
+  "stack": "swift-ios + web-admin (supabase)",
+  "authority": "docs/PIapp Biz Spec v5.0.md",
+  "families": {
+    "BR": "BR-\\d+",
+    "CAP": "CAP-\\d+",
+    "D": "D-\\d+",
+    "G": "G-\\d+"
+  },
+  "dependents": [
+    {
+      "path": "docs/PIapp Tech Spec v3.0.md",
+      "covers": [
+        "BR",
+        "CAP",
+        "D",
+        "G"
+      ],
+      "local_families": {
+        "T": "T-\\d+"
+      }
+    },
+    {
+      "path": "docs/PIapp UI Spec v3.0.md",
+      "covers": [
+        "BR",
+        "CAP"
+      ],
+      "local_families": {}
+    }
+  ],
+  "ignore": [],
+  "decision_log": "docs/decisions.md",
+  "constitution": ".spec-harness/constitution.md",
+  "verify": {
+    "commands": [],
+    "manual_only": false
+  },
+  "model_tiers": {
+    "review": "L",
+    "plan": "L",
+    "build": "M",
+    "mechanical": "S"
+  },
+  "retired": [
+    "BR-05",
+    "BR-30",
+    "BR-31",
+    "BR-32",
+    "BR-33",
+    "BR-34",
+    "BR-50",
+    "BR-51",
+    "BR-52",
+    "BR-53",
+    "BR-55",
+    "BR-56",
+    "BR-79"
+  ]
+}
