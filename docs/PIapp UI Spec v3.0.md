@@ -6,7 +6,7 @@
 | Owner | Ian Gotts, for Jez Cartwright / Performance Intelligence |
 | Version | 3.0 (Draft), 16 Nov 2026 |
 | Status | DRAFT for review. Re-baselined to Business Specification v5.0. Items marked OPEN need a decision or a design review with PI |
-| Companion specs | PIapp Biz Spec v5.0 (CAP-xx, BR-xx, D-xx, G-xx) and PIapp Tech Spec v3.0 |
+| Companion specs | PIapp Biz Spec v5.1 (CAP-xx, BR-xx, D-xx, G-xx) and PIapp Tech Spec v3.0 |
 | Supersedes | UI Specification v2.1 (22 Oct 2026) |
 | Brand reference | performance-intelligence.com and youtube.com/@performance-intelligence (section 1.3) |
 

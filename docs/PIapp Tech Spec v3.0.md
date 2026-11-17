@@ -6,7 +6,7 @@
 | Owner | Ian Gotts, for Jez Cartwright / Performance Intelligence |
 | Version | 3.0 (Draft), 16 Nov 2026 |
 | Status | DRAFT for review. Re-baselined to Business Specification v5.0. ADRs marked OPEN need a decision before the phase that depends on them |
-| Companion specs | PIapp Biz Spec v5.0 (BR-xx, CAP-xx, D-xx, G-xx) and PIapp UI Spec v3.0 |
+| Companion specs | PIapp Biz Spec v5.1 (BR-xx, CAP-xx, D-xx, G-xx) and PIapp UI Spec v3.0 |
 | Supersedes | Technical Specification v2.1 (22 Oct 2026) |
 | Architecture reference | AquaBrain patterns: Supabase Postgres with pgvector, Railway API and job worker, Vercel web, native Swift iOS (ADR-001) |
 
