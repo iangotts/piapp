@@ -1,7 +1,7 @@
 {
   "project": "PIapp",
   "stack": "swift-ios + web-admin (supabase)",
-  "authority": "docs/PIapp Biz Spec v5.0.md",
+  "authority": "docs/PIapp Biz Spec v5.1.md",
   "families": {
     "BR": "BR-\\d+",
     "CAP": "CAP-\\d+",
